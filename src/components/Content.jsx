@@ -14,7 +14,7 @@ export function Content() {
   const [citacao, setCitacao] = useState('')
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
-  const baseURL = 'https://womeninti.onrender.com'
+  const baseURL = 'https://womeninti.onrender.com/women'
 
   useEffect(() => {
     async function getData() {
